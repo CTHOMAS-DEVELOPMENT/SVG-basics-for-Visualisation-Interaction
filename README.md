@@ -25,3 +25,6 @@ Vector graphics is now much more straight forward for implementing consis
 (2) cd into SVG-basics-for-Visualisation
 
 (3) npm i
+
+## Demo is at:
+http://datavisualized3withsvg.surge.sh/
