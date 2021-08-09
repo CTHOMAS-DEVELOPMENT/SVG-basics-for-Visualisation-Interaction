@@ -1,22 +1,27 @@
-# Data visualization using React with D3.js 📈
+#  SVG basics for Visualisation (With D3 adding interaction)
+ 📈
 
-## Getting Started
-```git clone https://github.com/JangJua/react-d3.git```
+## Some history of SVG in the browser
+It was ironic that Microsoft with it's late 90's version of vector graphics support (called 'VML') stayed in the Microsoft Explorer browser as late as 2010, but it was this that caused a delay to widespread use of SVG for many years because of it's support for it's own  proprietary implementation of a vector graphics in it's browser. 
 
-```npm install```
+A javascript library called raphael.js (Created by Dmitry Baranovskiy) enabled vector graphics to work in both Microsoft and all other browsers around 2008 (So that a vector graphics solution could be used in all browsers). Enter Mike Bostock! who in 2015 introduced his D3 javascipt library for vector graphics. 
 
-```npm start```
-## Basic
-An introduction to d3.js - 
-[Link](https://www.d3-graph-gallery.com/intro_d3js.html)
+By 2015 all browser / devices supported SVG sufficiently but his library made it possible to create complex data visualisation (Eg : Financial charts/visualizations) more easily.
 
-How to use D3.js in React.js -
-[Link](https://wattenberger.com/blog/react-and-d3)
+Now this demo shows that JSX (React) supports all SVG elements just the same as dom elements. 
 
-## Advanced Charts Examples
-Responsive & animated chart -
-[Link](https://observablehq.com/@d3/gallery)
+Vector graphics is now much more straight forward for implementing consistent and exciting results accross all device/browser configurations.
 
-## React (Hooks) + D3.js Lectures
-Using React (Hooks) with D3 -
-[Link](https://www.youtube.com/watch?v=hR8xtl_IbCw&list=PLDZ4p-ENjbiPo4WH7KdHjh_EMI7Ic8b2B&index=3&ab_channel=TheMuratorium)
+## This application does the following:
+(1) Using pure SVG
+
+(2) Using SVG with D3 helping
+
+(3) Shows interaction and data updates
+
+## To deploy and run - assumes that your environment is up to date
+(1) git clone https://github.com/CTHOMAS-DEVELOPMENT/SVG-basics-for-Visualisation-Interaction.git
+
+(2) cd into SVG-basics-for-Visualisation
+
+(3) npm i
